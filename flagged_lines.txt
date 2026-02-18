@@ -1,0 +1,122 @@
+[line 1] 2016-09-28 04:30:30, Info                  CBS    Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll
+[line 2] 2016-09-28 04:30:31, Info                  CSI    00000001@2016/9/27:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f)
+[line 3] 2016-09-28 04:30:31, Info                  CSI    00000002@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa006ade @0x7fef9fd2984 @0x7fef9f83665 @0xff83e97c @0xff83d799)
+[line 4] 2016-09-28 04:30:31, Info                  CSI    00000003@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f)
+[line 5] 2016-09-28 04:30:31, Info                  CBS    Ending TrustedInstaller initialization.
+[line 6] 2016-09-28 04:30:31, Info                  CBS    Starting the TrustedInstaller main loop.
+[line 7] 2016-09-28 04:30:31, Info                  CBS    TrustedInstaller service starts successfully.
+[line 8] 2016-09-28 04:30:31, Info                  CBS    SQM: Initializing online with Windows opt-in: False
+[line 9] 2016-09-28 04:30:31, Info                  CBS    SQM: Cleaning up report files older than 10 days.
+[line 10] 2016-09-28 04:30:31, Info                  CBS    SQM: Requesting upload of all unsent reports.
+[line 11] 2016-09-28 04:30:31, Info                  CBS    SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: 0x2 [HRESULT = 0x80004005 - E_FAIL]
+[line 12] 2016-09-28 04:30:31, Info                  CBS    SQM: Failed to start standard sample upload. [HRESULT = 0x80004005 - E_FAIL]
+[line 13] 2016-09-28 04:30:31, Info                  CBS    SQM: Queued 0 file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6
+[line 14] 2016-09-28 04:30:31, Info                  CBS    SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL]
+[line 15] 2016-09-28 04:30:31, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+[line 16] 2016-09-28 04:30:31, Info                  CBS    NonStart: Checking to ensure startup processing was not required.
+[line 17] 2016-09-28 04:30:31, Info                  CSI    00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0xb6fd90
+[line 18] 2016-09-28 04:30:31, Info                  CSI    00000005 Creating NT transaction (seq 1), objectname [6]"(null)"
+[line 19] 2016-09-28 04:30:31, Info                  CSI    00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x214
+[line 20] 2016-09-28 04:30:31, Info                  CSI    00000007@2016/9/27:20:30:31.462 CSI perf trace:
+[line 21] 2016-09-28 04:30:31, Info                  CBS    NonStart: Success, startup processing not required as expected.
+[line 22] 2016-09-28 04:30:31, Info                  CBS    Startup processing thread terminated normally
+[line 23] 2016-09-28 04:30:31, Info                  CSI    00000008 CSI Store 4991456 (0x00000000004c29e0) initialized
+[line 131] 2016-09-28 04:30:32, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 344] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 346] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 348] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 350] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 352] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 354] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 356] 2016-09-28 04:30:33, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 453] 2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-Win7-SRV08R2-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16492, ApplicableState: 112, CurrentState:112
+[line 473] 2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17681, ApplicableState: 112, CurrentState:0
+[line 497] 2016-09-28 04:30:39, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.2.7601.16415, ApplicableState: 112, CurrentState:112
+[line 529] 2016-09-28 04:30:39, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 591] 2016-09-28 04:30:43, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17388, ApplicableState: 112, CurrentState:0
+[line 638] 2016-09-28 04:30:44, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-WinIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16398, ApplicableState: 112, CurrentState:112
+[line 668] 2016-09-28 04:30:44, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.18080, ApplicableState: 112, CurrentState:0
+[line 726] 2016-09-28 04:30:48, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17903, ApplicableState: 112, CurrentState:0
+[line 770] 2016-09-28 04:30:49, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16511, ApplicableState: 112, CurrentState:0
+[line 936] 2016-09-28 04:32:17, Info                  CBS    Failed to create backup log cab. [HRESULT = 0x80070001 - ERROR_INVALID_FUNCTION]
+[line 937] 2016-09-28 04:40:53, Info                  CBS    Reboot mark refs incremented to: 1
+[line 938] 2016-09-28 04:40:53, Info                  CBS    Scavenge: Starts
+[line 939] 2016-09-28 04:40:53, Info                  CSI    00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]"TI6.0_0:0/"
+[line 940] 2016-09-28 04:40:53, Info                  CBS    Scavenge: Begin CSI Store
+[line 941] 2016-09-28 04:40:54, Info                  CSI    0000000a Performing 1 operations; 1 are not lock/unlock and follow:
+[line 942] 2016-09-28 04:40:54, Info                  CSI    0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.
+[line 943] 2016-09-28 04:40:54, Info                  CSI    0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=7
+[line 944] 2016-09-28 04:40:54, Info                  CSI    0000000d Creating NT transaction (seq 2), objectname [6]"(null)"
+[line 945] 2016-09-28 04:40:54, Info                  CSI    0000000e Created NT transaction (seq 2) result 0x00000000, handle @0xb8
+[line 946] 2016-09-28 04:40:54, Info                  CSI    0000000f@2016/9/27:20:40:54.786 CSI perf trace:
+[line 947] 2016-09-28 04:40:54, Info                  CBS    Scavenge: Completed, disposition: 0X1
+[line 948] 2016-09-28 04:40:54, Info                  CSI    00000010@2016/9/27:20:40:54.787 CSI Transaction @0x47e9e0 destroyed
+[line 949] 2016-09-28 04:40:55, Info                  CBS    Reboot mark refs: 0
+[line 950] 2016-09-28 04:40:55, Info                  CBS    Idle processing thread terminated normally
+[line 951] 2016-09-28 04:40:55, Info                  CBS    Ending the TrustedInstaller main loop.
+[line 952] 2016-09-28 04:40:55, Info                  CBS    Starting TrustedInstaller finalization.
+[line 953] 2016-09-28 04:40:55, Info                  CBS    Ending TrustedInstaller finalization.
+[line 954] 2016-09-29 00:00:44, Info                  CBS    Starting TrustedInstaller initialization.
+[line 955] 2016-09-29 00:00:44, Info                  CBS    Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll
+[line 956] 2016-09-29 00:00:46, Info                  CSI    00000001@2016/9/28:16:00:46.160 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c39b6d @0x7fee5c0358f @0xffeee97c @0xffeed799 @0xffeedb2f)
+[line 957] 2016-09-29 00:00:46, Info                  CSI    00000002@2016/9/28:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c86ade @0x7fee5c52984 @0x7fee5c03665 @0xffeee97c @0xffeed799)
+[line 958] 2016-09-29 00:00:46, Info                  CSI    00000003@2016/9/28:16:00:46.213 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fef9d98728 @0x7fef9d98856 @0xffeee474 @0xffeed7de @0xffeedb2f)
+[line 959] 2016-09-29 00:00:46, Info                  CBS    Ending TrustedInstaller initialization.
+[line 960] 2016-09-29 00:00:46, Info                  CBS    Starting the TrustedInstaller main loop.
+[line 961] 2016-09-29 00:00:46, Info                  CBS    TrustedInstaller service starts successfully.
+[line 962] 2016-09-29 00:00:46, Info                  CBS    SQM: Initializing online with Windows opt-in: False
+[line 963] 2016-09-29 00:00:46, Info                  CBS    SQM: Cleaning up report files older than 10 days.
+[line 964] 2016-09-29 00:00:46, Info                  CBS    SQM: Requesting upload of all unsent reports.
+[line 965] 2016-09-29 00:00:46, Info                  CBS    SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: 0x2 [HRESULT = 0x80004005 - E_FAIL]
+[line 966] 2016-09-29 00:00:46, Info                  CBS    SQM: Failed to start standard sample upload. [HRESULT = 0x80004005 - E_FAIL]
+[line 967] 2016-09-29 00:00:46, Info                  CBS    SQM: Queued 0 file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6
+[line 968] 2016-09-29 00:00:46, Info                  CBS    SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL]
+[line 969] 2016-09-29 00:00:46, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+[line 970] 2016-09-29 00:00:46, Info                  CBS    NonStart: Checking to ensure startup processing was not required.
+[line 971] 2016-09-29 00:00:46, Info                  CSI    00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0x116fa70
+[line 972] 2016-09-29 00:00:46, Info                  CSI    00000005 Creating NT transaction (seq 1), objectname [6]"(null)"
+[line 973] 2016-09-29 00:00:46, Info                  CSI    00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x218
+[line 974] 2016-09-29 00:00:46, Info                  CSI    00000007@2016/9/28:16:00:46.260 CSI perf trace:
+[line 975] 2016-09-29 00:00:46, Info                  CBS    NonStart: Success, startup processing not required as expected.
+[line 976] 2016-09-29 00:00:46, Info                  CBS    Startup processing thread terminated normally
+[line 977] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: SOFTWARE, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SOFTWARE'.
+[line 978] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: SYSTEM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SYSTEM'.
+[line 979] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: SECURITY, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SECURITY'.
+[line 980] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: SAM, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SAM'.
+[line 981] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: COMPONENTS, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\COMPONENTS'.
+[line 982] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: DEFAULT, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\DEFAULT'.
+[line 983] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: ntuser.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Users\default\ntuser.dat'.
+[line 984] 2016-09-29 00:00:46, Info                  CBS    Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\system32\smi\store\Machine\schema.dat'.
+[line 985] 2016-09-29 00:00:46, Info                  CBS    Offline image is: read-only
+[line 986] 2016-09-29 00:00:46, Info                  CBS    Disabling manifest caching, because the image is not writeable.
+[line 987] 2016-09-29 00:00:46, Info                  CSI    00000008@2016/9/28:16:00:46.635 PopulateComponentFamiliesKey - Begin
+[line 988] 2016-09-29 00:01:03, Info                  CSI    00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End
+[line 989] 2016-09-29 00:01:03, Info                  CSI    0000000a CSI Store 17159600 (0x000000000105d5b0) initialized
+[line 990] 2016-09-29 00:01:03, Info                  CBS    Session: 11152_142416105 initialized by client SPP.
+[line 1095] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE
+[line 1096] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM
+[line 1097] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY
+[line 1098] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM
+[line 1099] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS
+[line 1100] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT
+[line 1101] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat
+[line 1102] 2016-09-29 00:03:19, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat
+[line 1103] 2016-09-29 00:03:25, Info                  CBS    Failed to create backup log cab. [HRESULT = 0x80070001 - ERROR_INVALID_FUNCTION]
+[line 1104] 2016-09-29 02:03:46, Info                  CSI    0000000b CSI Store 3065408 (0x00000000002ec640) initialized
+[line 1212] 2016-09-29 02:03:47, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1425] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1427] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1429] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1431] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1433] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1435] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1437] 2016-09-29 02:03:49, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1534] 2016-09-29 02:04:01, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-Win7-SRV08R2-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16492, ApplicableState: 112, CurrentState:112
+[line 1554] 2016-09-29 02:04:03, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17681, ApplicableState: 112, CurrentState:0
+[line 1578] 2016-09-29 02:04:08, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.2.7601.16415, ApplicableState: 112, CurrentState:112
+[line 1610] 2016-09-29 02:04:11, Info                  CBS    Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]
+[line 1672] 2016-09-29 02:04:23, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17388, ApplicableState: 112, CurrentState:0
+[line 1719] 2016-09-29 02:04:24, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-RDP-WinIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16398, ApplicableState: 112, CurrentState:112
+[line 1749] 2016-09-29 02:04:25, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.18080, ApplicableState: 112, CurrentState:0
+[line 1807] 2016-09-29 02:04:31, Info                  CBS    Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17903, ApplicableState: 112, CurrentState:0
+[line 1851] 2016-09-29 02:04:34, Info                  CBS    Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16511, ApplicableState: 112, CurrentState:0
