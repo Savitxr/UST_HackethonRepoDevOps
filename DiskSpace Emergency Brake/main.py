@@ -40,7 +40,7 @@ def main():
     while True:
         usage = get_disk_usage(partition)
         print(f"Disk usage: {usage:.2f}%")
-        if usage >= 90:
+        if usage >= 40:
             print("Disk usage critical! Identifying largest files...")
             largest_files = get_largest_files(partition)
             output_zip = os.path.join("/tmp", "largest_files.zip") if platform.system() != "Windows" else os.path.join(os.getenv("TEMP"), "largest_files.zip")
