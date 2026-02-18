@@ -1,9 +1,3 @@
-''' 
-4. The "Disk Space" Emergency Brake
- A background daemon that monitors disk usage. If a specific partition hits 90%, it identifies the top 5 largest files and moves them to a compressed .zip archive on a different drive (or a /tmp folder) to prevent system a crash.
-
- Key Libraries: os, zipfile, platform.
- '''
 
 import os
 import zipfile
